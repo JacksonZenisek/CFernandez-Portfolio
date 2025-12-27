@@ -84,7 +84,7 @@ div.educert_container{
     width:350px;
     border:1px solid transparent;
     margin-top:-121px;
-    margin-right:150px;
+    margin-right:100px;
     float:right;
 }
 
@@ -133,14 +133,15 @@ button.projlink:hover{
     opacity:80%;
 }
 
-div.home_main_intro_container{
-    height:950px;
+div.projects_main_intro_container{
+    height:800px;
     width:auto;
     border:1px solid green;
+    margin-top:250px;
 }
 
-div.home_intro_main_inner_container{
-    width:1400px;
+div.projects_main_intro_container{
+    width:60%;
     height:500px;
     border:1px solid blue;
     margin-right: auto;
@@ -158,6 +159,13 @@ footer.all_pages_foot_container{
     height:150px;
     width:auto;
     background-color:black;
+    margin:-8px;
+}
+
+div.main_projects_container{
+    height:2400px;
+    width:auto;
+    border:1px solid green;
 }
 
 p.foot_text{
@@ -180,21 +188,21 @@ div.dropdownmenubutton{
 }
 
 div.mobileenterandexitcontainer{
-    height: 150px;
-    width:150px;
+    height: 100px;
+    width:100px;
     background-color:#333333;
-    border: 1px solid transparent;
+    border: 1px solid orange;
     position:absolute;
     z-index:20;
     margin-top:-25px;
-    right:-150px;
+    right:-100px;
     color:white;
 }
 
 
 button.mobilemenuexitbutton{
-    height: 150px;
-    width:150px;
+    height: 100px;
+    width:100px;
     background-color:#333333;
     border: 1px solid transparent;
     position:absolute;
@@ -205,27 +213,27 @@ button.mobilemenuexitbutton{
 
 div.uparrow{
     height:5px;
-    width:75px;
+    width:40px;
     border:1px solid white;
     background-color:white;
     rotate:calc(45deg);
     margin-top:-5px;
-    margin-left:30px;
+    margin-left:20px;
 }
 
 div.downarrow{
     height:5px;
-    width:75px;
+    width:40px;
     border:1px solid white;
     background-color:white;
     rotate:calc(-45deg);
-    margin-top:43px;
-    margin-left:30px;
+    margin-top:20px;
+    margin-left:20px;
 }
 
 button.mobilemenuenterbutton{
-    height: 150px;
-    width:150px;
+    height: 100px;
+    width:100px;
     background-color:#333333;
     border: 1px solid transparent;
     position:absolute;
@@ -236,46 +244,21 @@ button.mobilemenuenterbutton{
 
 div.leftx{
     height:5px;
-    width:100px;
+    width:80px;
     border:1px solid white;
     background-color:white;
     rotate:calc(45deg);
     margin-top:-5px;
-    margin-left:20px;
 }
 
 div.rightx{
     height:5px;
-    width:100px;
+    width:80px;
     border:1px solid white;
     background-color:white;
     rotate:calc(-45deg);
     margin-top:-5px;
-    margin-left:20px;
 }
-
-div.mobilehomebuttoncontainer{
-    height:0px;
-    width:0px;
-    margin-top:50px;
-    margin-right:auto;
-    margin-left:auto;
-    transition-delay: 0.15s;
-}
-
-button.mobilehomebutton{
-    font-size:0px;
-    color:white;
-    text-align:center;
-    margin-right:auto;
-    margin-left:auto;
-    display:block;
-    margin-top:35px;
-    background-color:transparent;
-    border:1px solid transparent;
-    transition-delay: 0.15s;
-}
-
 
 div.mobileedubuttoncontainer{
     height:0;
@@ -360,6 +343,75 @@ img.disciconmobile{
     display:block;
     transition-delay: 0.15s;
 }
+
+div.mobilehomebuttoncontainer{
+    height:0px;
+    width:0px;
+    margin-top:50px;
+    margin-right:auto;
+    margin-left:auto;
+    transition-delay: 0.15s;
+}
+
+button.mobilehomebutton{
+    font-size:0px;
+    color:white;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    margin-top:35px;
+    background-color:transparent;
+    border:1px solid transparent;
+    transition-delay: 0.15s;
+}
+
+div.project1container{
+    height:1000px;
+    width:1500px;
+    border:1px solid orange;
+    margin-top:100px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+h3.lab03_heading{
+    font-size:50px;
+    text-align:center;
+}
+
+iframe.lab03projectframe{
+    height:800px;
+    width:600px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+div.project2container{
+    height:1000px;
+    width:1500px;
+    border:1px solid orange;
+    margin-top:100px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+h3.lab05_heading{
+    font-size:50px;
+    text-align:center;
+}
+
+iframe.lab05projectframe{
+    height:800px;
+    width:600px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
 
 @media (max-width:1850px){
     #proj_container_alt{
@@ -455,6 +507,12 @@ img.disciconmobile{
     }
 }
 
+@media (max-width:1600px){
+    #project1containeralt,#project2containeralt{
+        width:800px;
+    }
+}
+
 
 @media (max-width:1300px){
     #selection_container_alt{
@@ -540,32 +598,26 @@ img.disciconmobile{
 
 @media (max-width:950px){
     #name_head_one_alt{
+        margin-top:200px;
         font-size:60px;
     }
 }
 
-@media (max-width:950px){
-    #home_main_intro_container_alt{
-        height:800px;
-    }
-}
 
 @media (max-width:950px){
-    #home_intro_main_inner_container_alt{
+    #project1containeralt,#project2containeralt{
         width:600px;
     }
 }
 
 @media (max-width:700px){
-    #home_intro_main_inner_container_alt{
+    #project1containeralt,#project2containeralt{
         width:500px;
     }
 }
 
-
-
 @media (max-width:700px){
-    #home_main_sub_intro_alt{
-        font-size:25px;
+    #lab03projectframealt,#lab05projectframealt{
+        width:500px;
     }
 }
