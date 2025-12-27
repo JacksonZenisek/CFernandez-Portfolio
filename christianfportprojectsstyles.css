@@ -188,21 +188,21 @@ div.dropdownmenubutton{
 }
 
 div.mobileenterandexitcontainer{
-    height: 100px;
-    width:100px;
+    height: 150px;
+    width:150px;
     background-color:#333333;
-    border: 1px solid orange;
+    border: 1px solid transparent;
     position:absolute;
     z-index:20;
     margin-top:-25px;
-    right:-100px;
+    right:-150px;
     color:white;
 }
 
 
 button.mobilemenuexitbutton{
-    height: 100px;
-    width:100px;
+    height: 150px;
+    width:150px;
     background-color:#333333;
     border: 1px solid transparent;
     position:absolute;
@@ -213,27 +213,27 @@ button.mobilemenuexitbutton{
 
 div.uparrow{
     height:5px;
-    width:40px;
+    width:75px;
     border:1px solid white;
     background-color:white;
     rotate:calc(45deg);
     margin-top:-5px;
-    margin-left:20px;
+    margin-left:30px;
 }
 
 div.downarrow{
     height:5px;
-    width:40px;
+    width:75px;
     border:1px solid white;
     background-color:white;
     rotate:calc(-45deg);
-    margin-top:20px;
-    margin-left:20px;
+    margin-top:43px;
+    margin-left:30px;
 }
 
 button.mobilemenuenterbutton{
-    height: 100px;
-    width:100px;
+    height: 150px;
+    width:150px;
     background-color:#333333;
     border: 1px solid transparent;
     position:absolute;
@@ -244,20 +244,22 @@ button.mobilemenuenterbutton{
 
 div.leftx{
     height:5px;
-    width:80px;
+    width:100px;
     border:1px solid white;
     background-color:white;
     rotate:calc(45deg);
     margin-top:-5px;
+    margin-left:20px;
 }
 
 div.rightx{
     height:5px;
-    width:80px;
+    width:100px;
     border:1px solid white;
     background-color:white;
     rotate:calc(-45deg);
     margin-top:-5px;
+    margin-left:20px;
 }
 
 div.mobileedubuttoncontainer{
