@@ -133,14 +133,13 @@ button.projlink:hover{
     opacity:80%;
 }
 
-div.projects_main_intro_container{
-    height:800px;
+div.home_main_intro_container{
+    height:2500px;
     width:auto;
     border:1px solid green;
-    margin-top:250px;
 }
 
-div.projects_main_intro_container{
+div.home_intro_main_inner_container{
     width:60%;
     height:500px;
     border:1px solid blue;
@@ -155,17 +154,69 @@ p.home_main_sub_intro{
     text-align:center;
 }
 
+div.college_edu_main_container{
+    height:600px;
+    width:1375px;
+    border:1px solid orange;
+    margin-right: auto;
+    margin-left:auto;
+    display:block;
+}
+
+div.workexperience_main_container{
+    height:1000px;
+    width:1375px;
+    border:1px solid orange;
+    margin-right: auto;
+    margin-left:auto;
+    display:block;
+}
+
+h3.educ_heading{
+    font-size:70px;
+    text-align:center;
+}
+
+a.utsalink{
+    color:rgb(0, 0, 0);
+    text-decoration:underline;
+    text-underline-offset:7px;
+    transition:0.5s;
+}
+
+a.utsalink:hover{
+    color:rgb(65, 65, 65);
+}
+
+li.bacheduone{
+    font-size:30px;
+    color:black;
+    text-align:left;
+}
+
+div.certifications_main_container{
+    height:600px;
+    width:1375px;
+    border:1px solid orange;
+    margin-right: auto;
+    margin-left:auto;
+    display:block;
+}
+
+h3.cert_heading{
+    font-size:70px;
+    text-align:center;
+}
+
+h3.work_heading{
+    font-size: 70px;
+    text-align: center;
+}
+
 footer.all_pages_foot_container{
     height:150px;
     width:auto;
     background-color:black;
-    margin:-8px;
-}
-
-div.main_projects_container{
-    height:2400px;
-    width:auto;
-    border:1px solid green;
 }
 
 p.foot_text{
@@ -188,21 +239,21 @@ div.dropdownmenubutton{
 }
 
 div.mobileenterandexitcontainer{
-    height: 100px;
-    width:100px;
+    height: 150px;
+    width:150px;
     background-color:#333333;
-    border: 1px solid orange;
+    border: 1px solid transparent;
     position:absolute;
     z-index:20;
     margin-top:-25px;
-    right:-100px;
+    right:-150px;
     color:white;
 }
 
 
 button.mobilemenuexitbutton{
-    height: 100px;
-    width:100px;
+    height: 150px;
+    width:150px;
     background-color:#333333;
     border: 1px solid transparent;
     position:absolute;
@@ -213,27 +264,27 @@ button.mobilemenuexitbutton{
 
 div.uparrow{
     height:5px;
-    width:40px;
+    width:75px;
     border:1px solid white;
     background-color:white;
     rotate:calc(45deg);
     margin-top:-5px;
-    margin-left:20px;
+    margin-left:30px;
 }
 
 div.downarrow{
     height:5px;
-    width:40px;
+    width:75px;
     border:1px solid white;
     background-color:white;
     rotate:calc(-45deg);
-    margin-top:20px;
-    margin-left:20px;
+    margin-top:43px;
+    margin-left:30px;
 }
 
 button.mobilemenuenterbutton{
-    height: 100px;
-    width:100px;
+    height: 150px;
+    width:150px;
     background-color:#333333;
     border: 1px solid transparent;
     position:absolute;
@@ -244,20 +295,22 @@ button.mobilemenuenterbutton{
 
 div.leftx{
     height:5px;
-    width:80px;
+    width:100px;
     border:1px solid white;
     background-color:white;
     rotate:calc(45deg);
     margin-top:-5px;
+    margin-left:20px;
 }
 
 div.rightx{
     height:5px;
-    width:80px;
+    width:100px;
     border:1px solid white;
     background-color:white;
     rotate:calc(-45deg);
     margin-top:-5px;
+    margin-left:20px;
 }
 
 div.mobileedubuttoncontainer{
@@ -366,52 +419,28 @@ button.mobilehomebutton{
     transition-delay: 0.15s;
 }
 
-div.project1container{
-    height:1000px;
-    width:1500px;
-    border:1px solid orange;
-    margin-top:100px;
-    margin-right:auto;
-    margin-left:auto;
-    display:block;
+a.companylinks{
+    color:rgb(0, 0, 0);
+    text-decoration:underline;
+    text-underline-offset:7px;
+    transition:0.5s;
+    font-size:30px;
 }
 
-h3.lab03_heading{
-    font-size:50px;
-    text-align:center;
+a.companylinks:hover{
+    color:rgb(65, 65, 65);
 }
 
-iframe.lab03projectframe{
-    height:800px;
-    width:600px;
-    margin-right:auto;
-    margin-left:auto;
-    display:block;
+a.viewcert1{
+    color:black;
+    font-size:25px;
+
 }
 
-div.project2container{
-    height:1000px;
-    width:1500px;
-    border:1px solid orange;
-    margin-top:100px;
-    margin-right:auto;
-    margin-left:auto;
-    display:block;
+a.viewcert1:hover{
+    color:rgb(65, 65, 65);
+    
 }
-
-h3.lab05_heading{
-    font-size:50px;
-    text-align:center;
-}
-
-iframe.lab05projectframe{
-    height:800px;
-    width:600px;
-    margin-right:auto;
-    margin-left:auto;
-    display:block;
-}
-
 
 @media (max-width:1850px){
     #proj_container_alt{
@@ -497,7 +526,7 @@ iframe.lab05projectframe{
 
 @media (max-width:1600px){
     #name_head_one_alt{
-        font-size:100px;
+        font-size:80px;
     }
 }
 
@@ -508,8 +537,14 @@ iframe.lab05projectframe{
 }
 
 @media (max-width:1600px){
-    #project1containeralt,#project2containeralt{
-        width:800px;
+    #home_main_intro_container_alt{
+        height:2800px;
+    }
+}
+
+@media (max-width:1600px){
+    #college_edu_main_container_alt,#certifications_main_container_alt,#workexperience_main_container_alt{
+        width:975px;
     }
 }
 
@@ -556,6 +591,32 @@ iframe.lab05projectframe{
     }
 }
 
+
+@media (max-width:1150px){
+    #home_main_intro_container_alt{
+        height:3300px;
+    }
+}
+
+@media (max-width:1150px){
+    #workexperience_main_container_alt{
+        width:800px;
+        margin-top:100px;
+    }
+}
+
+@media (max-width:1150px){
+    #bacheduone_alt,#companylinksalt{
+        font-size:35px;
+    }
+}
+
+@media (max-width:1150px){
+    #viewcert1alt{
+        font-size:30px;
+    }
+} 
+
 @media (max-width:1100px){
     #selection_container_alt{
         display:none;
@@ -596,6 +657,25 @@ iframe.lab05projectframe{
     }
 }
 
+@media (max-width:1100px){
+    #name_head_one_alt{
+        margin-top:200px;
+        font-size:70px;
+    }
+}
+
+@media (max-width:1100px){
+    #college_edu_main_container_alt,#certifications_main_container_alt{
+        width:800px;
+    }
+}
+
+@media (max-width:1100px){
+    #home_main_intro_container_alt{
+        margin-top:1px;
+    }
+}
+
 @media (max-width:950px){
     #name_head_one_alt{
         margin-top:200px;
@@ -603,21 +683,20 @@ iframe.lab05projectframe{
     }
 }
 
-
-@media (max-width:950px){
-    #project1containeralt,#project2containeralt{
-        width:600px;
+@media (max-width:800px){
+    #name_head_one_alt{
+        font-size:50px;
     }
 }
 
-@media (max-width:700px){
-    #project1containeralt,#project2containeralt{
-        width:500px;
+@media (max-width:800px){
+    #college_edu_main_container_alt,#certifications_main_container_alt,#workexperience_main_container_alt{
+        width:550px;
     }
 }
 
-@media (max-width:700px){
-    #lab03projectframealt,#lab05projectframealt{
-        width:500px;
+@media (max-width:800px){
+    #bacheduone_alt{
+        font-size:22px;
     }
 }
