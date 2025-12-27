@@ -683,19 +683,19 @@ a.viewcert1:hover{
     }
 }
 
-@media (max-width:800px){
+@media (max-width:850px){
     #name_head_one_alt{
         font-size:50px;
     }
 }
 
-@media (max-width:800px){
+@media (max-width:850px){
     #college_edu_main_container_alt,#certifications_main_container_alt,#workexperience_main_container_alt{
         width:550px;
     }
 }
 
-@media (max-width:800px){
+@media (max-width:850px){
     #bacheduone_alt{
         font-size:22px;
     }
