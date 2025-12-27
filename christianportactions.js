@@ -15,14 +15,14 @@ function gotohomepage(){
 }
 
 function displaymobilemenu(){
-    document.getElementById("dropdownmenubuttonalt").style.width = "400px";
+    document.getElementById("dropdownmenubuttonalt").style.width = "500px";
     document.getElementById("mobileedubuttoncontaineralt").style.width = "350px";
     document.getElementById("mobileedubuttoncontaineralt").style.height = "100px";
-    document.getElementById("mobileeducertbuttonalt").style.fontSize= "30px";
+    document.getElementById("mobileeducertbuttonalt").style.fontSize= "35px";
 
     document.getElementById("mobileprojectsbuttoncontaineralt").style.width = "350px";
     document.getElementById("mobileprojectsbuttoncontaineralt").style.height = "100px";
-    document.getElementById("mobileprojbuttonalt").style.fontSize= "30px";
+    document.getElementById("mobileprojbuttonalt").style.fontSize= "35px";
 
     document.getElementById("mobilegithubbuttoncontaineralt").style.width = "200px";
     document.getElementById("mobilegithubbuttoncontaineralt").style.height = "200px";
@@ -36,7 +36,7 @@ function displaymobilemenu(){
 
     document.getElementById("mobilehomebuttoncontaineralt").style.width = "350px";
     document.getElementById("mobilehomebuttoncontaineralt").style.height = "100px";
-    document.getElementById("mobilehomebuttonalt").style.fontSize= "30px";
+    document.getElementById("mobilehomebuttonalt").style.fontSize= "35px";
 }
 
 function displayclosebutton(){
