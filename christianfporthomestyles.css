@@ -84,7 +84,7 @@ div.educert_container{
     width:350px;
     border:1px solid transparent;
     margin-top:-121px;
-    margin-right:100px;
+    margin-right:150px;
     float:right;
 }
 
@@ -134,13 +134,13 @@ button.projlink:hover{
 }
 
 div.home_main_intro_container{
-    height:2500px;
+    height:950px;
     width:auto;
     border:1px solid green;
 }
 
 div.home_intro_main_inner_container{
-    width:60%;
+    width:1400px;
     height:500px;
     border:1px solid blue;
     margin-right: auto;
@@ -152,65 +152,6 @@ p.home_main_sub_intro{
     color:black;
     font-size:30px;
     text-align:center;
-}
-
-div.college_edu_main_container{
-    height:600px;
-    width:1375px;
-    border:1px solid orange;
-    margin-right: auto;
-    margin-left:auto;
-    display:block;
-}
-
-div.workexperience_main_container{
-    height:1000px;
-    width:1375px;
-    border:1px solid orange;
-    margin-right: auto;
-    margin-left:auto;
-    display:block;
-}
-
-h3.educ_heading{
-    font-size:70px;
-    text-align:center;
-}
-
-a.utsalink{
-    color:rgb(0, 0, 0);
-    text-decoration:underline;
-    text-underline-offset:7px;
-    transition:0.5s;
-}
-
-a.utsalink:hover{
-    color:rgb(65, 65, 65);
-}
-
-li.bacheduone{
-    font-size:30px;
-    color:black;
-    text-align:left;
-}
-
-div.certifications_main_container{
-    height:600px;
-    width:1375px;
-    border:1px solid orange;
-    margin-right: auto;
-    margin-left:auto;
-    display:block;
-}
-
-h3.cert_heading{
-    font-size:70px;
-    text-align:center;
-}
-
-h3.work_heading{
-    font-size: 70px;
-    text-align: center;
 }
 
 footer.all_pages_foot_container{
@@ -313,6 +254,29 @@ div.rightx{
     margin-left:20px;
 }
 
+div.mobilehomebuttoncontainer{
+    height:0px;
+    width:0px;
+    margin-top:50px;
+    margin-right:auto;
+    margin-left:auto;
+    transition-delay: 0.15s;
+}
+
+button.mobilehomebutton{
+    font-size:0px;
+    color:white;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    margin-top:35px;
+    background-color:transparent;
+    border:1px solid transparent;
+    transition-delay: 0.15s;
+}
+
+
 div.mobileedubuttoncontainer{
     height:0;
     width:0;
@@ -395,51 +359,6 @@ img.disciconmobile{
     margin-left:auto;
     display:block;
     transition-delay: 0.15s;
-}
-
-div.mobilehomebuttoncontainer{
-    height:0px;
-    width:0px;
-    margin-top:50px;
-    margin-right:auto;
-    margin-left:auto;
-    transition-delay: 0.15s;
-}
-
-button.mobilehomebutton{
-    font-size:0px;
-    color:white;
-    text-align:center;
-    margin-right:auto;
-    margin-left:auto;
-    display:block;
-    margin-top:35px;
-    background-color:transparent;
-    border:1px solid transparent;
-    transition-delay: 0.15s;
-}
-
-a.companylinks{
-    color:rgb(0, 0, 0);
-    text-decoration:underline;
-    text-underline-offset:7px;
-    transition:0.5s;
-    font-size:30px;
-}
-
-a.companylinks:hover{
-    color:rgb(65, 65, 65);
-}
-
-a.viewcert1{
-    color:black;
-    font-size:25px;
-
-}
-
-a.viewcert1:hover{
-    color:rgb(65, 65, 65);
-    
 }
 
 @media (max-width:1850px){
@@ -526,25 +445,13 @@ a.viewcert1:hover{
 
 @media (max-width:1600px){
     #name_head_one_alt{
-        font-size:80px;
+        font-size:100px;
     }
 }
 
 @media (max-width:1600px){
     #home_intro_main_inner_container_alt{
         width:1100px;
-    }
-}
-
-@media (max-width:1600px){
-    #home_main_intro_container_alt{
-        height:2800px;
-    }
-}
-
-@media (max-width:1600px){
-    #college_edu_main_container_alt,#certifications_main_container_alt,#workexperience_main_container_alt{
-        width:975px;
     }
 }
 
@@ -591,32 +498,6 @@ a.viewcert1:hover{
     }
 }
 
-
-@media (max-width:1150px){
-    #home_main_intro_container_alt{
-        height:3300px;
-    }
-}
-
-@media (max-width:1150px){
-    #workexperience_main_container_alt{
-        width:800px;
-        margin-top:100px;
-    }
-}
-
-@media (max-width:1150px){
-    #bacheduone_alt,#companylinksalt{
-        font-size:35px;
-    }
-}
-
-@media (max-width:1150px){
-    #viewcert1alt{
-        font-size:30px;
-    }
-} 
-
 @media (max-width:1100px){
     #selection_container_alt{
         display:none;
@@ -657,46 +538,34 @@ a.viewcert1:hover{
     }
 }
 
-@media (max-width:1100px){
-    #name_head_one_alt{
-        margin-top:200px;
-        font-size:70px;
-    }
-}
-
-@media (max-width:1100px){
-    #college_edu_main_container_alt,#certifications_main_container_alt{
-        width:800px;
-    }
-}
-
-@media (max-width:1100px){
-    #home_main_intro_container_alt{
-        margin-top:1px;
-    }
-}
-
 @media (max-width:950px){
     #name_head_one_alt{
-        margin-top:200px;
         font-size:60px;
     }
 }
 
-@media (max-width:800px){
-    #name_head_one_alt{
-        font-size:50px;
+@media (max-width:950px){
+    #home_main_intro_container_alt{
+        height:800px;
     }
 }
 
-@media (max-width:800px){
-    #college_edu_main_container_alt,#certifications_main_container_alt,#workexperience_main_container_alt{
-        width:550px;
+@media (max-width:950px){
+    #home_intro_main_inner_container_alt{
+        width:600px;
     }
 }
 
-@media (max-width:800px){
-    #bacheduone_alt{
-        font-size:22px;
+@media (max-width:700px){
+    #home_intro_main_inner_container_alt{
+        width:500px;
+    }
+}
+
+
+
+@media (max-width:700px){
+    #home_main_sub_intro_alt{
+        font-size:25px;
     }
 }
