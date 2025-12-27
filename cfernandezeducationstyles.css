@@ -592,13 +592,13 @@ a.viewcert1:hover{
 
 @media (max-width:1150px){
     #home_main_intro_container_alt{
-        height:3000px;
+        height:3300px;
     }
 }
 
 @media (max-width:1150px){
     #workexperience_main_container_alt{
-        width:700px;
+        width:800px;
         margin-top:100px;
     }
 }
