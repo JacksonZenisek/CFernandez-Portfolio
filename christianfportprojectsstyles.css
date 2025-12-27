@@ -1,0 +1,623 @@
+body.main_bod{
+    background-color:grey;
+}
+
+div.head_one{
+    height:400px;
+    border:1px solid red;
+    width:auto;
+    margin:-8px;
+}
+
+h1.name_head_one{
+    font-size:140px;
+    text-align:center;
+}
+
+div.selection_container{
+    height:120px;
+    width:1700px;
+    border:1px solid transparent;
+    background-color:rgb(0, 0, 0);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    box-shadow: 0 4px 30px black;
+}
+
+div.selectioninner_container{
+    height:120px;
+    width:1500px;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+
+}
+
+div.linked_container{
+    height:120px;
+    width:120px;
+    border:1px solid transparent;
+}
+
+img.linkedicon{
+    height:100px;
+    width:100px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    transition:0.5s;
+}
+
+img.linkedicon:hover{
+    cursor:pointer;
+    opacity:80%;
+}
+
+div.disc_container{
+    height:120px;
+    width:120px;
+    border:1px solid transparent;
+    margin-left:400px;
+    margin-top:-121px;
+}
+
+img.discicon{
+    height:100px;
+    width:100px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    transition:0.5s;
+}
+
+img.discicon:hover{
+    cursor:pointer;
+    opacity:80%;
+}
+
+div.educert_container{
+    height:120px;
+    width:350px;
+    border:1px solid transparent;
+    margin-top:-121px;
+    margin-right:100px;
+    float:right;
+}
+
+button.educertlink{
+    font-size:30px;
+    color:white;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    margin-top:35px;
+    background-color:transparent;
+    border:1px solid transparent;
+    transition:0.5s;
+}
+
+button.educertlink:hover{
+    cursor:pointer;
+    opacity:80%;
+}
+
+div.proj_container{
+    height:120px;
+    width:250px;
+    border:1px solid transparent;
+    margin-top:-121px;
+    margin-right:5px;
+    float:right;
+}
+
+button.projlink{
+    font-size:30px;
+    color:white;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    margin-top:35px;
+    background-color:transparent;
+    border:1px solid transparent;
+    transition:0.5s;
+}
+
+button.projlink:hover{
+    cursor:pointer;
+    opacity:80%;
+}
+
+div.projects_main_intro_container{
+    height:800px;
+    width:auto;
+    border:1px solid green;
+    margin-top:250px;
+}
+
+div.projects_main_intro_container{
+    width:60%;
+    height:500px;
+    border:1px solid blue;
+    margin-right: auto;
+    margin-left:auto;
+    display:block;
+}
+
+p.home_main_sub_intro{
+    color:black;
+    font-size:30px;
+    text-align:center;
+}
+
+footer.all_pages_foot_container{
+    height:150px;
+    width:auto;
+    background-color:black;
+    margin:-8px;
+}
+
+div.main_projects_container{
+    height:2400px;
+    width:auto;
+    border:1px solid green;
+}
+
+p.foot_text{
+    font-size:25px;
+    color:white;
+}
+
+div.dropdownmenubutton{
+    height:100%;
+    width: 0;
+    position:fixed;
+    z-index: 10;
+    top:0;
+    left:0;
+    background-color: #333333;
+    overflow-x:visible;
+    transition: 0.5s;
+    padding-top: 60px;
+    display:block;
+}
+
+div.mobileenterandexitcontainer{
+    height: 100px;
+    width:100px;
+    background-color:#333333;
+    border: 1px solid orange;
+    position:absolute;
+    z-index:20;
+    margin-top:-25px;
+    right:-100px;
+    color:white;
+}
+
+
+button.mobilemenuexitbutton{
+    height: 100px;
+    width:100px;
+    background-color:#333333;
+    border: 1px solid transparent;
+    position:absolute;
+    z-index:20;
+    color:white;
+    display:block;
+}
+
+div.uparrow{
+    height:5px;
+    width:40px;
+    border:1px solid white;
+    background-color:white;
+    rotate:calc(45deg);
+    margin-top:-5px;
+    margin-left:20px;
+}
+
+div.downarrow{
+    height:5px;
+    width:40px;
+    border:1px solid white;
+    background-color:white;
+    rotate:calc(-45deg);
+    margin-top:20px;
+    margin-left:20px;
+}
+
+button.mobilemenuenterbutton{
+    height: 100px;
+    width:100px;
+    background-color:#333333;
+    border: 1px solid transparent;
+    position:absolute;
+    z-index:20;
+    color:white;
+    display:none;
+}
+
+div.leftx{
+    height:5px;
+    width:80px;
+    border:1px solid white;
+    background-color:white;
+    rotate:calc(45deg);
+    margin-top:-5px;
+}
+
+div.rightx{
+    height:5px;
+    width:80px;
+    border:1px solid white;
+    background-color:white;
+    rotate:calc(-45deg);
+    margin-top:-5px;
+}
+
+div.mobileedubuttoncontainer{
+    height:0;
+    width:0;
+    margin-top:100px;
+    margin-right:auto;
+    margin-left:auto;
+    transition-delay: 0.15s;
+}
+
+div.mobileprojectsbuttoncontainer{
+    height:0px;
+    width:0px;
+    margin-top:50px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    transition-delay: 0.15s;
+}
+
+div.mobilegithubbuttoncontainer{
+    height:0px;
+    width:0px;
+    margin-top:50px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    transition-delay:0.15s;
+}
+
+div.mobilelinkedinbuttoncontainer{
+    height:0px;
+    width:0px;
+    margin-top:50px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    transition-delay: 0.15s;
+}
+
+img.linkedimobilecon{
+    height:0px;
+    width:0px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    transition-delay: 0.15s;
+}
+
+button.mobileeducertbutton{
+    font-size:0px;
+    color:white;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    margin-top:35px;
+    background-color:transparent;
+    border:1px solid transparent;
+    transition-delay: 0.15s;
+}
+
+button.mobileprojbutton{
+    font-size:0px;
+    color:white;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    margin-top:35px;
+    background-color:transparent;
+    border:1px solid transparent;
+    transition-delay: 0.15s;
+}
+
+img.disciconmobile{
+    height:0px;
+    width:0px;
+    margin-top:50px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    transition-delay: 0.15s;
+}
+
+div.mobilehomebuttoncontainer{
+    height:0px;
+    width:0px;
+    margin-top:50px;
+    margin-right:auto;
+    margin-left:auto;
+    transition-delay: 0.15s;
+}
+
+button.mobilehomebutton{
+    font-size:0px;
+    color:white;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    margin-top:35px;
+    background-color:transparent;
+    border:1px solid transparent;
+    transition-delay: 0.15s;
+}
+
+div.project1container{
+    height:1000px;
+    width:1500px;
+    border:1px solid orange;
+    margin-top:100px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+h3.lab03_heading{
+    font-size:50px;
+    text-align:center;
+}
+
+iframe.lab03projectframe{
+    height:800px;
+    width:600px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+div.project2container{
+    height:1000px;
+    width:1500px;
+    border:1px solid orange;
+    margin-top:100px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+h3.lab05_heading{
+    font-size:50px;
+    text-align:center;
+}
+
+iframe.lab05projectframe{
+    height:800px;
+    width:600px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+
+@media (max-width:1850px){
+    #proj_container_alt{
+        margin-right:100px;
+        width:150px;
+    }
+}
+
+@media (max-width:1850px){
+    #linked_container_alt{
+        margin-left:100px;
+    }
+}
+
+@media (max-width:1850px){
+    #selection_container_alt{
+        width:1500px;
+    }
+}
+
+
+
+@media (max-width:1600px){
+    #selection_container_alt{
+        width:1200px;
+    }
+}
+
+@media (max-width:1600px){
+    #linkediconalt{
+        height:70px;
+        width:70px;
+        margin-top:15px;
+    }
+}
+
+@media (max-width:1600px){
+    #disciconalt{
+        height:70px;
+        width:70px;
+        margin-top:15px;
+    }
+}
+
+@media (max-width:1600px){
+    #educert_container_alt{
+        width:200px;
+        margin-right:140px;
+    }
+}
+
+@media (max-width:1600px){
+    #educertlinkalt{
+        font-size:20px;
+        margin-top:40px;
+    }
+}
+
+@media (max-width:1600px){
+    #proj_container_alt{
+        width:100px;
+    }
+}
+
+@media (max-width:1600px){
+    #projlinkalt{
+        font-size:20px;
+        margin-top:40px;
+    }
+}
+
+@media (max-width:1600px){
+    #selectioninner_containeralt{
+        width:1200px;
+    }
+}
+
+@media (max-width:1600px){
+    #disc_container_alt{
+        margin-left:375px;
+    }
+}
+
+@media (max-width:1600px){
+    #name_head_one_alt{
+        font-size:100px;
+    }
+}
+
+@media (max-width:1600px){
+    #home_intro_main_inner_container_alt{
+        width:1100px;
+    }
+}
+
+@media (max-width:1600px){
+    #project1containeralt,#project2containeralt{
+        width:800px;
+    }
+}
+
+
+@media (max-width:1300px){
+    #selection_container_alt{
+        width:1000px;
+    }
+}
+
+@media (max-width:1300px){
+    #linked_container_alt{
+        margin-left:50px;
+    }
+}
+
+@media (max-width:1300px){
+    #disc_container_alt{
+        margin-left:290px;
+    }
+}
+
+@media (max-width:1300px){
+    #educert_container_alt{
+        margin-right: 100px;
+    }
+}
+
+@media (max-width:1300px){
+    #selectioninner_containeralt{
+        width:1000px;
+    }
+}
+
+@media (max-width:1300px){
+    #proj_container_alt{
+        margin-right: 80px;
+    }
+}
+
+@media (max-width:1300px){
+    #home_intro_main_inner_container_alt{
+        width:800px;
+    }
+}
+
+@media (max-width:1100px){
+    #selection_container_alt{
+        display:none;
+    }
+}
+
+@media (max-width:1100px){
+    #name_head_one_alt{
+        height:300px;
+    }
+}
+
+@media (max-width:1100px){
+    #disciconalt{
+        height:120px;
+        width:120px;
+        margin-top:50px;
+    }
+}
+
+@media (max-width:1100px){
+    #linkediconalt{
+        height:120px;
+        width:120px;
+        margin-top:30px;
+    }
+}
+
+@media (min-width:1100px){
+    #dropdownmenubuttonalt{
+        display:none;
+    }
+}
+
+@media (max-width:1100px){
+    #name_head_one_alt{
+        margin-top:200px;
+    }
+}
+
+@media (max-width:950px){
+    #name_head_one_alt{
+        margin-top:200px;
+        font-size:60px;
+    }
+}
+
+
+@media (max-width:950px){
+    #project1containeralt,#project2containeralt{
+        width:600px;
+    }
+}
+
+@media (max-width:700px){
+    #project1containeralt,#project2containeralt{
+        width:500px;
+    }
+}
+
+@media (max-width:700px){
+    #lab03projectframealt,#lab05projectframealt{
+        width:500px;
+    }
+}
