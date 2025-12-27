@@ -389,6 +389,7 @@ iframe.lab03projectframe{
     margin-right:auto;
     margin-left:auto;
     display:block;
+    overflow:auto;
 }
 
 div.project2container{
@@ -412,6 +413,7 @@ iframe.lab05projectframe{
     margin-right:auto;
     margin-left:auto;
     display:block;
+    overflow:auto;
 }
 
 
