@@ -592,25 +592,26 @@ a.viewcert1:hover{
 
 @media (max-width:1150px){
     #home_main_intro_container_alt{
-        height:2600px;
+        height:3000px;
     }
 }
 
 @media (max-width:1150px){
     #workexperience_main_container_alt{
         width:700px;
+        margin-top:100px;
     }
 }
 
 @media (max-width:1150px){
     #bacheduone_alt,#companylinksalt{
-        font-size:25px;
+        font-size:35px;
     }
 }
 
 @media (max-width:1150px){
     #viewcert1alt{
-        font-size:20px;
+        font-size:30px;
     }
 } 
 
@@ -663,7 +664,7 @@ a.viewcert1:hover{
 
 @media (max-width:1100px){
     #college_edu_main_container_alt,#certifications_main_container_alt{
-        width:700px;
+        width:800px;
     }
 }
 
