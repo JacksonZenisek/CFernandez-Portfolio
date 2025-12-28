@@ -376,6 +376,7 @@ div.project1container{
     margin-right:auto;
     margin-left:auto;
     display:block;
+    overflow-y:scroll;
 }
 
 h3.lab03_heading{
@@ -400,6 +401,7 @@ div.project2container{
     margin-right:auto;
     margin-left:auto;
     display:block;
+    overflow-y:scroll;
 }
 
 h3.lab05_heading{
