@@ -163,7 +163,7 @@ footer.all_pages_foot_container{
 }
 
 div.main_projects_container{
-    height:2400px;
+    height:2600px;
     width:auto;
     border:1px solid transparent;
 }
@@ -417,6 +417,24 @@ iframe.lab05projectframe{
     overflow-y:scroll;
 }
 
+a.viewpdf1{
+    font-size:35px;
+    color:black;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+    display:none;
+}
+
+a.viewpdf2{
+    font-size:35px;
+    color:black;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+    display:none;;
+}
+
 
 @media (max-width:1850px){
     #proj_container_alt{
@@ -592,6 +610,12 @@ iframe.lab05projectframe{
 @media (min-width:1100px){
     #dropdownmenubuttonalt{
         display:none;
+    }
+}
+
+@media (max-width:1100px){
+    #viewpdf1alt,#viewpdf2alt{
+        display:block;
     }
 }
 
