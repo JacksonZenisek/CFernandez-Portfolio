@@ -4,7 +4,7 @@ body.main_bod{
 
 div.head_one{
     height:400px;
-    border:1px solid red;
+    border:1px solid transparent;
     width:auto;
     margin:-8px;
 }
@@ -136,14 +136,14 @@ button.projlink:hover{
 div.projects_main_intro_container{
     height:800px;
     width:auto;
-    border:1px solid green;
+    border:1px solid transparentw;
     margin-top:250px;
 }
 
 div.projects_main_intro_container{
     width:60%;
     height:500px;
-    border:1px solid blue;
+    border:1px solid transparent;
     margin-right: auto;
     margin-left:auto;
     display:block;
@@ -165,7 +165,7 @@ footer.all_pages_foot_container{
 div.main_projects_container{
     height:2400px;
     width:auto;
-    border:1px solid green;
+    border:1px solid transparent;
 }
 
 p.foot_text{
@@ -371,7 +371,7 @@ button.mobilehomebutton{
 div.project1container{
     height:1000px;
     width:1500px;
-    border:1px solid orange;
+    border:1px solid transparent;
     margin-top:100px;
     margin-right:auto;
     margin-left:auto;
@@ -396,7 +396,7 @@ iframe.lab03projectframe{
 div.project2container{
     height:1000px;
     width:1500px;
-    border:1px solid orange;
+    border:1px solid transparent;
     margin-top:100px;
     margin-right:auto;
     margin-left:auto;
@@ -415,7 +415,6 @@ iframe.lab05projectframe{
     margin-left:auto;
     display:block;
     overflow-y:scroll;
-    border:none;
 }
 
 
