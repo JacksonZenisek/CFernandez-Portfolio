@@ -4,7 +4,7 @@ body.main_bod{
 
 div.head_one{
     height:400px;
-    border:1px solid red;
+    border:1px solid transparent;
     width:auto;
     margin:-8px;
 }
@@ -136,13 +136,13 @@ button.projlink:hover{
 div.home_main_intro_container{
     height:2500px;
     width:auto;
-    border:1px solid green;
+    border:1px solid transparent;
 }
 
 div.home_intro_main_inner_container{
     width:60%;
     height:500px;
-    border:1px solid blue;
+    border:1px solid transparent;
     margin-right: auto;
     margin-left:auto;
     display:block;
@@ -157,7 +157,7 @@ p.home_main_sub_intro{
 div.college_edu_main_container{
     height:600px;
     width:1375px;
-    border:1px solid orange;
+    border:1px solid transparent;
     margin-right: auto;
     margin-left:auto;
     display:block;
@@ -166,7 +166,7 @@ div.college_edu_main_container{
 div.workexperience_main_container{
     height:1000px;
     width:1375px;
-    border:1px solid orange;
+    border:1px solid transparent;
     margin-right: auto;
     margin-left:auto;
     display:block;
@@ -197,7 +197,7 @@ li.bacheduone{
 div.certifications_main_container{
     height:600px;
     width:1375px;
-    border:1px solid orange;
+    border:1px solid transparent;
     margin-right: auto;
     margin-left:auto;
     display:block;
