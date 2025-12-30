@@ -134,7 +134,7 @@ button.projlink:hover{
 }
 
 div.home_main_intro_container{
-    height:2500px;
+    height:2800px;
     width:auto;
     border:1px solid transparent;
 }
@@ -167,6 +167,7 @@ div.workexperience_main_container{
     height:1000px;
     width:1375px;
     border:1px solid transparent;
+    margin-top:150px;
     margin-right: auto;
     margin-left:auto;
     display:block;
@@ -442,6 +443,11 @@ a.viewcert1:hover{
     
 }
 
+img.techplusimage{
+    height:175px;
+    width:175px;
+}
+
 @media (max-width:1850px){
     #proj_container_alt{
         margin-right:100px;
@@ -538,7 +544,7 @@ a.viewcert1:hover{
 
 @media (max-width:1600px){
     #home_main_intro_container_alt{
-        height:2800px;
+        height:3000px;
     }
 }
 
@@ -601,7 +607,7 @@ a.viewcert1:hover{
 @media (max-width:1150px){
     #workexperience_main_container_alt{
         width:800px;
-        margin-top:100px;
+        margin-top:220px;
     }
 }
 
