@@ -446,6 +446,12 @@ a.viewcert1:hover{
 img.techplusimage{
     height:175px;
     width:175px;
+    transition:0.5s;
+}
+
+img.techplusimage:hover{
+    cursor:pointer;
+    opacity:70%;
 }
 
 @media (max-width:1850px){
