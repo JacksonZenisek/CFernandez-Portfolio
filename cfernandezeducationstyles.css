@@ -268,7 +268,10 @@ div.uparrow{
     width:75px;
     border:1px solid white;
     background-color:white;
-    rotate:calc(45deg);
+
+    transform: rotate(45deg);
+    transform-origin: center;
+
     margin-top:-5px;
     margin-left:30px;
 }
@@ -278,40 +281,43 @@ div.downarrow{
     width:75px;
     border:1px solid white;
     background-color:white;
-    rotate:calc(-45deg);
+
+    transform: rotate(-45deg);
+    transform-origin: center;
+
     margin-top:43px;
     margin-left:30px;
 }
 
 button.mobilemenuenterbutton{
-    height: 150px;
-    width:150px;
-    background-color:#333333;
-    border: 1px solid transparent;
-    position:absolute;
-    z-index:20;
-    color:white;
-    display:none;
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  background-color: #333333;
+  border: none;
+  z-index: 20;
+  display:none;
 }
 
-div.leftx{
-    height:5px;
-    width:100px;
-    border:1px solid white;
-    background-color:white;
-    rotate:calc(45deg);
-    margin-top:-5px;
-    margin-left:20px;
+/* Shared line styling */
+button.mobilemenuenterbutton .leftx,
+button.mobilemenuenterbutton .rightx{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90px;
+  height: 5px;
+  background-color: white;
+  transform-origin: center;
 }
 
-div.rightx{
-    height:5px;
-    width:100px;
-    border:1px solid white;
-    background-color:white;
-    rotate:calc(-45deg);
-    margin-top:-5px;
-    margin-left:20px;
+/* X lines */
+button.mobilemenuenterbutton .leftx{
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+button.mobilemenuenterbutton .rightx{
+  transform: translate(-50%, -50%) rotate(-45deg);
 }
 
 div.mobileedubuttoncontainer{
